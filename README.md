@@ -1,9 +1,6 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 📦 Generador de codigos qr
 
-Description of the app ...
+App hecha en clase que genera codigos qr
 
 ## Demo App
 
