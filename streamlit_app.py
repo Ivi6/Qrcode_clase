@@ -9,10 +9,10 @@ st.title("Generador de códigos QR")
 texto = st.text_input("Escribe un texto o URL", "https://example.com")
 
 if texto:
-qr = qrcode.QRCode(
-version=1,
-box_size=10,
-border=4
+   qr = qrcode.QRCode(
+   version=1,
+   box_size=10,
+   border=4
 )
 qr.add_data(texto)
 qr.make(fit=True)
